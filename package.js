@@ -14,8 +14,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
   api.use(['ecmascript',
     'react@0.14.1_1',
-    'froatsnook:request',
-    'jparker:crypto-sha1'
+    'froatsnook:request@2.40.5',
+    'jparker:crypto-sha1@0.1.0'
   ]);
 
   api.addFiles('client/weixin.js','client');
