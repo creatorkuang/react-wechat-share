@@ -55,6 +55,7 @@ Meteor.methods({
 			var jsapi_ticket= getTicket(access_token);
 			var tmpstr= "jsapi_ticket="+jsapi_ticket+"&noncestr="+noncestr+"&timestamp="+timestamp+"&url="+url
 			var signature= CryptoJS.SHA1(tmpstr).toString();
+			console.log(access_token,tmpstr,jsapi_ticket,noncestr,timestamp,url,signature);
 			var out={
 					appId:appId,
 					timestamp:timestamp,
