@@ -1,8 +1,8 @@
 Package.describe({
   name: 'creatorkuang:wechat-share',
-  version: '0.0.5',
+  version: '0.0.6',
   // Brief, one-line summary of the package.
-  summary: 'meteor react package for wechat share',
+  summary: 'meteor react package for wechat share debug version',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/creatorkuang/react-wechat-share.git',
   // By default, Meteor will default to using README.md for documentation.
